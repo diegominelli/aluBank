@@ -5,8 +5,21 @@ class Header extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // ignore: avoid_unnecessary_containers
     return Container(
+      decoration: const BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+          colors: <Color>[
+            Color.fromRGBO(103, 99, 234, 1.0),
+            Color.fromRGBO(155, 105, 254, 1.0),
+            Color.fromRGBO(195, 107, 255, 1.0)
+          ],
+        ),
+        borderRadius: BorderRadius.vertical(
+          bottom: Radius.circular(10),
+        ),
+      ),
       child: Padding(
         padding: const EdgeInsets.fromLTRB(16.0, 80.0, 16.0, 16.0),
         child: Row(
