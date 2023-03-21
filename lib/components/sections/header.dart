@@ -8,8 +8,10 @@ class Header extends StatelessWidget {
     // ignore: avoid_unnecessary_containers
     return Container(
       child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: const <Widget>[
               Text('\$1000.00'),
               Text('Balanço disponível')
