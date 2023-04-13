@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class BoxCard extends StatelessWidget {
   final Widget boxContent;
+  // ignore: use_key_in_widget_constructors
   const BoxCard({Key? key, required this.boxContent});
 
   @override
@@ -11,6 +12,7 @@ class BoxCard extends StatelessWidget {
       decoration: BoxDecoration(
         boxShadow: kElevationToShadow[3],
         borderRadius: BorderRadius.circular(10),
+        color: Theme.of(context).cardColor,
       ),
       child: boxContent,
     );
