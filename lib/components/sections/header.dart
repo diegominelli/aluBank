@@ -24,23 +24,20 @@ class Header extends StatelessWidget {
           children: <Widget>[
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: const <Widget>[
+              children: <Widget>[
                 Text.rich(
                   TextSpan(
                     text: '\$',
-                    style: TextStyle(fontSize: 16),
                     children: <TextSpan>[
                       TextSpan(
-                        text: '100.00',
-                        style: TextStyle(
-                            fontSize: 28, fontWeight: FontWeight.bold),
+                        text: '1000.00',
+                        style: Theme.of(context).textTheme.bodyLarge,
                       ),
                     ],
                   ),
                 ),
-                Text(
+                const Text(
                   'Balanço disponível',
-                  style: TextStyle(fontSize: 16),
                 )
               ],
             ),
