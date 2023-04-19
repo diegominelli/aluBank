@@ -2,7 +2,9 @@ import 'package:alubank/themes/theme_colors.dart';
 import 'package:flutter/material.dart';
 
 class ContentDivision extends StatelessWidget {
-  const ContentDivision({super.key});
+  const ContentDivision({
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
