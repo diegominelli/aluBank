@@ -22,36 +22,6 @@ class AccountPoints extends StatelessWidget {
             ),
           ),
           const BoxCard(boxContent: _AccountPointsContent())
-          // BoxCard(
-          //   boxContent: Column(
-          //     crossAxisAlignment: CrossAxisAlignment.start,
-          //     children: [
-          //       Padding(
-          //         padding: const EdgeInsets.only(bottom: 8.0),
-          //         child: Text(
-          //           'Pontos totais:',
-          //           style: Theme.of(context).textTheme.titleMedium,
-          //         ),
-          //       ),
-          //       Padding(
-          //         padding: const EdgeInsets.only(right: 4.0),
-          //         child: Text(
-          //           '3000',
-          //           style: Theme.of(context).textTheme.bodyLarge,
-          //         ),
-          //       ),
-          //       const ContentDivision(),
-          //       Padding(
-          //         padding: const EdgeInsets.only(bottom: 8.0),
-          //         child: Text(
-          //           'Objetivos:',
-          //           style: Theme.of(context).textTheme.titleMedium,
-          //         ),
-          //       ),
-          //       const _AccountPointsContent()
-          //     ],
-          //   ),
-          // ),
         ],
       ),
     );
